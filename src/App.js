@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./lotr.png";
 import Movie from "./Movie";
 import "./App.css";
 
