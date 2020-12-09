@@ -10,7 +10,7 @@ function App() {
     ];
 
     const displayFilms = movies.map((movie, index) => {
-        return <Movie {...movie} key={index.toString()} />;
+        return <Movie {...movie} key={`movie ${index}`} />;
     });
 
     return (
